@@ -1,0 +1,10 @@
+[0713/200144.004:ERROR:process_info.cc(359)] UncheckedAllocate
+[0713/213725.380:ERROR:process_info.cc(359)] UncheckedAllocate
+[0713/213858.032:ERROR:process_info.cc(359)] UncheckedAllocate
+[0713/213858.088:ERROR:process_info.cc(359)] UncheckedAllocate
+[0713/213941.127:ERROR:process_info.cc(359)] UncheckedAllocate
+[0713/214148.399:ERROR:process_info.cc(359)] UncheckedAllocate
+[0713/214148.438:ERROR:process_info.cc(359)] UncheckedAllocate
+[0713/214152.605:ERROR:process_info.cc(359)] UncheckedAllocate
+[0713/214156.217:ERROR:process_info.cc(359)] UncheckedAllocate
+[0713/214256.780:ERROR:prune_crash_reports.cc(35)] PruneCrashReportDatabase: Failed to get pending reports
