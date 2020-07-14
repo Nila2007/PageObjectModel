@@ -23,9 +23,10 @@ public class Uti1 extends BasePage {
     public static long timestamp(){
         return (System.currentTimeMillis());
     } // below method is for text
-    public static String getTextFromElement(By by){
-        return driver.findElement(by).getText();
-    }//select method for select for drop down list
+   public static String getTextFromElement(By by){
+       return driver.findElement(by).getText();
+    }
+    //select method for select for drop down list
     public static void selectFromDropDownByVisiableText(By by, String text){
         Select select = new Select(driver.findElement(by));
         select.selectByVisibleText(text);

@@ -20,37 +20,34 @@ public class RegisterPage extends Uti1 {
     private By _registerSubmitButton = By.id("register-button");
     private By _userRegisterMessage = By.name("Your registration completed");
     private By _continueOnHomepage = By.name("register-continue");
-//                   //div[@class='result']
-//public void toVeryfyUsetONRegisterPage(){
-//    userRegisterSuccessfully(By.name("Your registration completed"),"30");
-//    getTextFromElement(_userRegisterMessage);
 
-//}
+
     public void userEnterRegisterationDetails() {
-      clickOnElement(_selectGender,30);
-        TypeText(_firstName, "Nila",30);
-        TypeText(_lastName, "patel",30);
+        clickOnElement(_selectGender, 30);
+        TypeText(_firstName, "Nila", 30);
+        TypeText(_lastName, "patel", 30);
         selectFromDropDownByVisiableText(_dateOfBirthDay, "20");
         selectFromDropDownByVisiableText(_monthOfBirthday, "May");
         selectFromDropDownByVisiableText(_yearOfBirthDay, "1995");
-        TypeText(_emailId, "nila+" + timestamp() + "@gmail.com",40);
-        TypeText(_companyName, "Test.com",30);
-        clickOnElement(_newsLetter,40);
-        TypeText(_password, "123neev",30);
-        TypeText(_conformPassword, "123neev",40);
-        clickOnElement(_registerSubmitButton,40);
+        TypeText(_emailId, "nila+" + timestamp() + "@gmail.com", 40);
+        TypeText(_companyName, "Test.com", 30);
+        clickOnElement(_newsLetter, 40);
+        TypeText(_password, "123neev", 30);
+        TypeText(_conformPassword, "123neev", 40);
+        clickOnElement(_registerSubmitButton, 40);
         //getTextFromElement(_userRegisterMessage);
-        clickOnElement(_continueOnHomepage,30);
-        getTextFromElement(_userRegisterMessage);
+        clickOnElement(_continueOnHomepage, 30);
+        //getTextFromElement(_userRegisterMessage);
+    }
+//        public void userRegisterSuccessfully(){
+////    userRegisterSuccessfully(By.name("Your registration completed"),"30");
+//    getTextFromElement(By.name("Your registration completed"));
+//    String expectedText = "Your registration completed";
+//         String actualText = expectedText;
 
-
-
-        // String expectedText = "Your registration completed";
-        // String actualText = getTextFromElement(By.xpath("//div[@class='result']"));
-        // assert
-        //  Assert.assertEquals(actualText,expectedText);
-//Your registration completed
-        //register-continue
     }
 
-}
+
+//div[@class='result
+//Your registration completed
+//register-continue

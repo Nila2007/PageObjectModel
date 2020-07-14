@@ -29,7 +29,7 @@ public class BrowserManager extends Uti1{
     }
 
 
-    //public void closeBrowser(){
-       // driver.close();
-   // }
+    public void closeBrowser(){
+        driver.close();
+    }
 }

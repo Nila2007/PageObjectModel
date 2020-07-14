@@ -9,7 +9,7 @@ public class RegisterSucssesPage extends Uti1 {
 
 public void veryfyUserRegisterSuccessFully(){
     getTextFromElement(_registerSuccessMessage);
-    Assert.assertEquals(expectedRegisterSuccessMessage,_registerSuccessMessage);
+   Assert.assertEquals(expectedRegisterSuccessMessage,_registerSuccessMessage);
    Assert.assertEquals(getTextFromElement(_registerSuccessMessage),expectedRegisterSuccessMessage);
 
 
